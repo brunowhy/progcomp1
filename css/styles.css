@@ -1,0 +1,37 @@
+body {
+    /* fonte do texto */
+    font-family: Arial, sans-serif;
+    background-color: rgb(223, 194, 152);
+    /* usa modelo FlexBox, conceito de caixa para posicionamento */
+    display: flex;
+    justify-content: center; /* centraliza na horizontal */
+    height: 100vh; /* altura da página 100% da altura da página*/
+    align-items: center; /* centraliza na vertical */
+
+}
+.container {
+    background-color: rgb(223, 125, 107);
+    padding: 20px; /* espaçamento interno */
+    border-radius: 10px; /* borda */
+    text-align: center; /* texto centralizado */
+    box-shadow: 0 20px 20px ; color: brown; /* sombra */
+    text-decoration: dotted;
+    
+}
+button {
+    background-color: rgb(224, 142, 142);
+    color: rgb(255, 255, 255);
+    border: none;
+    padding: 5px 10px;
+}
+
+button:hover  {
+    background-color: rgb(194, 84, 76);
+}
+.Foto {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+    
+}
