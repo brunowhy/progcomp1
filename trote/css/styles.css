@@ -1,0 +1,65 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    
+}
+header{
+    background: rgb(28, 101, 105);
+    color: rgb(255, 255, 255);
+    padding: 20px 0;
+    font-size: 24px;
+    
+    
+
+}
+nav{
+    background-color: rgb(141, 221, 214);
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 5px;
+    align-items: center;
+    
+    
+    
+}
+#links-menu {
+    display: flex;
+    gap: 15px;
+}
+nav a:hover {
+    background: rgb(89, 172, 187);
+}
+nav a {
+    color: rgb(255, 255, 255); /* texto branco */
+    text-decoration: none; /* não faz decoração no link */
+    padding: 10px 15px; /* 10px é acima e abaixo 15px é esq e dir */
+    font-size: 18px; /* 18px de tamanho da fonte */
+    background: #005663; /* cor de fundo */
+    border-radius: 5px; /* borda com canto arredondado */
+}
+
+img{
+    width: 120px;
+    height: auto;
+    margin-right: 20px;
+    border-radius: 20px;
+}
+.container{
+    width: 80%;
+    margin: 20px auto;
+    background: rgb(226, 250, 248);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: justify;
+    
+
+}
+
+
+
+
+    
