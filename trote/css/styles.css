@@ -13,6 +13,8 @@ header{
     font-size: 24px;
     
     
+    
+    
 
 }
 nav{
@@ -66,8 +68,45 @@ table tr td{
 }
 
 table {
-    margin: 0 auto;
+    margin: 0 auto  ;
+}
+.laranja {
+    background-color: orange;
+}
+.azul{
+    background-color: rgb(63, 238, 235);
+}
+.preto{
+    color: rgb(255, 255, 255);
+    background-color: black;
+}
+.roxo{
+   background-color: rgb(203, 29, 203);
+
+}
+.verde {
+    background-color: rgb(54, 224, 74);
+}
+.vermelho{
+    background-color: rgb(214, 12, 12);
+}
+.campos {
+    display: flex;
+    align-items: center; 
+    gap: 10px; 
+    margin-bottom: 10px; 
 }
 
+label {
+    width: 120px; 
+    text-align: left; 
+}
+
+input {
+    flex: 1; 
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
 
     

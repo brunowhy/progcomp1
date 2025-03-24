@@ -34,10 +34,22 @@
             
         </nav>
         <div class="container">
-            <h2> Trote Solidário - Construa vitórias fora de campo e jogue pelo soliedariedade </h2>
-            <p> CENTRO UNIVERSITÁRIO MUNICIPAL DE FRANCA </p>
-            <P>Uni-FACEF</P>
-            <p> Regulamento Trote Solidário - 2025</p>
+            <h2 style="color: rgb(8, 118, 112);">Calculadoras de Pontuação</h2>
+            <form>
+                <div class="campos">
+                    <label>Ação Social</label>
+                    <input type="number" id="acaoSocial">
+                </div>
+                <div class="campos">
+                    <label>Homenagem</label>
+                    <input type="number" id="homenagem">
+                </div>
+                <div class="campos">
+                    <button type="button" onclick="calcular()">Calcular</button>
+                    <label id="resposta"></label>
+                </div>
+            </form>
+            
         </div>
         
     </body>
