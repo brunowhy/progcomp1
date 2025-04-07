@@ -72,6 +72,9 @@ table tr td{
 table {
     margin: 0 auto  ;
 }
+.amarelo {
+    background-color: rgb(214, 201, 50);
+}
 .laranja {
     background-color: orange;
 }

@@ -1,22 +1,23 @@
 function calcular(){
     // declaração variável sem tipo
-   let soma = 0
+   let soma = 0, acaoSocial, homenagem, leite, kit, equipe, suplemento, pontosKitSupl = 0,
+   sangue, pontoSangue = 0
    // recupera o valor da ação social digitado
-   let acaoSocial = document.getElementById("acaoSocial").value
+    acaoSocial = document.getElementById("acaoSocial").value
    soma = soma + Number(acaoSocial)
    // recupera o valor da homenagem digitado
-   let homenagem = document.getElementById("homenagem").value
+    homenagem = document.getElementById("homenagem").value
    soma = soma + Number(homenagem)
    // recupera a qtde de litros de leite
-   let leite = document.getElementById("leite").value
+    leite = document.getElementById("leite").value
    soma = soma + (2 * Number(leite))
    // recupera a qtde de kits 
-   let kit = Number(document.getElementById("kit").value)
+    kit = Number(document.getElementById("kit").value)
    // recupera a cor da equipe
-   let equipe = document.getElementById("equipe").value
+    equipe = document.getElementById("equipe").value
     // recupera a qtde de latas de suplemento
-   let suplemento = document.getElementById("suplemento").value
-   let pontosKitSupl = 0 // guarda pontuação de kit + supl
+    suplemento = document.getElementById("suplemento").value
+     pontosKitSupl = 0 // guarda pontuação de kit + supl
    if (equipe == "Laranja"){
        // equipe é laranja
        if (kit >= 97 && suplemento >= 49) {
@@ -35,9 +36,37 @@ function calcular(){
            pontosKitSupl = (kit * 30)
        }
    }
+   else if (equipe == "Preta") {
+
+   }
+   else if (equipe == "Roxa") {
+
+   }
+   else if (equipe == "Verde") {
+
+   }
+   else (equipe == "Vermelha")
+   
    alert(pontosKitSupl)
    soma = soma + pontosKitSupl
-  
-   // devolve o resultado para o HTML
+
+  sangue = number(document.getElementById("sangue").value)
+  if (equipe == "Laranja"){
+    if (sangue >= 49)[
+        pontoSangue = 2500 + (sangue - 49) * 20
+    ]
+    else [
+        pontoSangue = sangue * 20
+    ]
+  }
+  else if (equipe == "Preta"){
+    if (sangue >= 52)[
+        pontoSangue = 2500 + (sangue - 52) * 20
+    ]
+    else[
+        pontoSangue = sangue * 20
+    ]
+  }
+   // devolve .geto resultado para o HTML
    document.getElementById("soma").innerHTML = soma.toFixed(2)
 }
